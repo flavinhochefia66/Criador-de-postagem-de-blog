@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>   
+<h1>Blog</h1>
+<br>
+<button onclick="mudar_tema()">Mudar de Tema</button>
+</header> 
+
+<main>
+
+<div id="lista">
+
+</div>
+<br>
+<div id="paginator">
+<button id="anterior" disabled>Anterior</button>  
+<span id="pag1">Página 1</span>  
+<button id="proximo" disabled>Próxima</button> 
+</div>
+
+<section id="criar">
+
+<h2>Criar Nova Postagem</h2>
+
+<form id="postagem">
+<label for="title">Título:</label>
+<input type="text" id="title" required>
+<label for="descricao">Descrição:</label>
+<textarea id="descricao" required></textarea>
+<button type="submit">Enviar</button>
+</form>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
